@@ -48,7 +48,10 @@ main {
   height: 75vh;
   background-color: aquamarine;
 }
-.pixel {
+.pixels {
   border: 1px solid blue;
   background-color: palegoldenrod;
+}
+#mouse-info {
+
 }
