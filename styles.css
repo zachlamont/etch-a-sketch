@@ -20,7 +20,14 @@ h1 {
   color: white;
   font-size: 50px;
   font-family: "Cabin Sketch", cursive;
+
 }
+.label {
+  color: white;
+  font-size: 16px;
+  font-family: "Cabin Sketch", cursive;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -28,8 +35,12 @@ main {
   background-color: lightpink;
 }
 .sidebar {
+  padding: 20px;
   width: 200px;
   background-color: lightgreen;
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 .grid-background {
   display: flex;
@@ -53,5 +64,8 @@ main {
   background-color: palegoldenrod;
 }
 #mouse-info {
+}
+#resolution {
+margin-left: auto;
 
 }

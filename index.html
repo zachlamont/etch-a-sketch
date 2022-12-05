@@ -19,7 +19,21 @@
     </header>
     <main>
       <div class="sidebar">
-        <p id="mouse-info">Info Box</p>
+        <div>
+          <input
+            type="range"
+            id="resolution"
+            name="resolution"
+            min="8"
+            max="64"
+            id="resolution"
+          />
+          <p class="label">Change Grid Resolution</p>
+        </div>
+        <div>
+          <input type="color" id="color-picker" name="color-picker" value="#e66465" />
+          <p class="label">Change Color</p>
+        </div>
       </div>
       <div class="grid-background">
         <div id="grid-container"></div>
