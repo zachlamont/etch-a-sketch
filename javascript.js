@@ -21,10 +21,13 @@ function drawGrid(gridSize) {
     pixel.style.width = (1 / gridSize) * 100 + "%";
     pixel.style.height = (1 / gridSize) * 100 + "%";
 
+   let pixelLightness = 80;
+
     pixel.addEventListener("mouseover", (event) => {
       // highlight the mouseover target
       if (mouseDown == 1) {
-      event.target.style.backgroundColor = "green";
+      event.target.style.backgroundColor = "hsl(240,100%,"+pixelLightness+"%)";
+      pixelLightness = pixelLightness - 10;
       }
     });
 
