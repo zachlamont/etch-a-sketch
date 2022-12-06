@@ -1,71 +1,87 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  color: white;
 }
-body {
-  height: 100vh;
-  width: 100vw;
+html {
+  height: 100%;
 }
+
 header {
-  background-color: #1f2937;
   display: flex;
   height: 100px;
   align-items: center;
-  background-color: royalblue;
+  background-color: rgb(25, 66, 148);
+  width: 100vw;
+  padding: 20px;
 }
 .logo {
   font-size: 50px;
 }
 h1 {
-  color: white;
   font-size: 50px;
   font-family: "Cabin Sketch", cursive;
-
+  margin-left: 15px;
 }
 .label {
-  color: white;
   font-size: 16px;
   font-family: "Cabin Sketch", cursive;
 }
 
 main {
+  height: 100;
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  background-color: lightpink;
+  background-color: rgb(242, 242, 238);
 }
 .sidebar {
   padding: 20px;
   width: 200px;
-  background-color: lightgreen;
-  display:flex;
+  background-color: rgb(18, 47, 104);
+  display: flex;
   justify-content: flex-start;
   flex-direction: column;
 }
 .grid-background {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 20px auto;
   justify-content: center;
   align-content: center;
-  background-color: lightblue;
+  background-color: white;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px -1px rgba(0, 0, 0, 0.5);
 }
 #grid-container {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  width: 75vh;
   height: 75vh;
-  background-color: aquamarine;
+  aspect-ratio: 1/1;
+  border-right: 0.25px solid rgb(133, 140, 170);
+  border-bottom: 0.25px solid rgb(133, 140, 170);
 }
 .pixels {
-  border: 1px solid blue;
-  background-color: palegoldenrod;
+  border-top: 0.25px solid rgb(133, 140, 170);
+  border-left: 0.25px solid rgb(133, 140, 170);
+  background-color: rgb(242, 242, 238);
 }
-#mouse-info {
+.warning {
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "Cabin Sketch", cursive;
+  margin-top: 40px;
+  text-align: center;
 }
-#resolution {
-margin-left: auto;
 
+#resolution {
+  margin-left: auto;
+}
+.name {
+  font-size: 16px;
+  font-family: "Cabin Sketch", cursive;
+  margin-top: auto;
+}
+.menu {
+  text-align: center;
 }
